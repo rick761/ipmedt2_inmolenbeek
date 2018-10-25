@@ -1,0 +1,164 @@
+@media screen and (max-width: 1199px) {
+
+p {
+	font-size: 18px;
+	margin-top: 0px;
+	color: #FFF;
+}
+
+h1 {
+	color: #FFF;
+	font-size: 32px;
+	text-transform: uppercase;
+	margin-top: 0px;
+	padding-top: 15px;
+	margin-bottom: 0px;
+	padding-bottom: 15px;
+}
+
+header {
+	min-height: 100vh;
+	background-image: url(../images/In-Molenbeek-Header.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
+}
+
+header h1 {
+	color: rgba(255,255,255,0.8);
+	font-size: 60px;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 40%;
+}
+
+header h2 {
+	color: rgba(255,255,255,0.8);
+	font-size: 24px;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+#content-dark {
+	width: 90%;
+	min-height: 510px;
+	background: #222222;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#content-light {
+	width: 90%;
+	min-height: 510px;
+	background: #FFF;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-top: 0px;
+}
+
+#image {
+	width: 100%;
+}
+
+img {
+	width: 100%;
+}
+
+#text {
+	width: 100%;
+}
+
+.dark {
+	color: #222;
+}
+
+#scroll-down {
+	margin-top: 100px;
+	width: 50%;
+	margin-left: 25%;
+}
+
+#scroll-down i {
+	animation: jump 1.5s ease 0s infinite normal;
+	-webkit-animation: jump 1.5s ease 0s infinite normal;
+	color: #FFF;
+	font-size: 72px;
+}
+
+#fact
+{
+	width: 200px;
+	height: 200px;
+	background: red;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	float:left;
+	margin:5px;
+}
+.count
+{
+  line-height: 200px;
+  color:white;
+  margin-left: 62px;
+  font-size: 48px;
+}
+
+@-webkit-keyframes jump {
+ 0%{
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+ }
+ 20%{
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+ }
+ 40%{
+	-webkit-transform: translateY(-30px);
+	transform: translateY(-30px);
+ }
+ 50%{
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+ }
+ 60%{
+	-webkit-transform: translateY(-15px);
+	transform: translateY(-15px);
+ }
+ 80%{
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+ }
+ 100%{
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+ }
+}
+
+@keyframes jump {
+ 0%{
+	transform: translateY(0);
+ }
+ 20%{
+	transform: translateY(0);
+ }
+ 40%{
+	transform: translateY(-30px);
+ }
+ 50%{
+	transform: translateY(0);
+ }
+ 60%{
+	transform: translateY(-15px);
+ }
+ 80%{
+	transform: translateY(0);
+ }
+ 100%{
+	transform: translateY(0);
+ }
+}
+}
